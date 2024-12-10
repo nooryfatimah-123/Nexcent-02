@@ -1,0 +1,276 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    overflow-x: hidden;
+}
+
+/* --------------General CSS--------------- */
+a{
+    text-decoration: none;
+}
+  .clients , .system , .spending-three , .helping , .design , .customer , .new-marketing , .suscipit , .footer{
+    margin-top: 40px;
+}
+.hero , .helping , .customer , .banner , .suscipit , .footer{
+    padding: 30px 0 ;
+}
+h1 , h2 , h3 , h4{
+    font-weight: 600;
+    color: #4D4D4D;
+}
+h1 {
+    font-size: 48px;
+    margin-bottom: 0;
+    line-height: 55px;
+}
+h2{
+    font-size: 40px;
+    line-height: 45px;
+}
+h3{
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+h4{
+    font-size: 20px;
+    line-height: 28px; 
+    margin-bottom: 0;
+    padding-right: 10px;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #717171;
+    margin-bottom: 0;
+}
+.hero p , .system p , .spending-three p , .helping p , .design p , .customer p , .customer h4 {
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+ .helping , .customer , .banner  {
+    background:  #F5F7FA;
+ } 
+span , .login , h4 , .customer a , .new-marketing a, .navbar .nav-item .nav-link:hover  {
+    color: #4caf4f;
+}
+ .bttn:hover{
+    background-color: #8daf4c;
+    color: #FFf;
+ }
+ 
+
+
+/* -------------------- Navbar------------------ */
+
+.navbar-toggler {
+    border: 0;
+    border-radius: 0;
+}
+ .fa-bars{
+    color: #4caf4f;
+}
+.login{
+    margin-right: 20px;
+    font-size: 15px;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.bttn {
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, .2);
+    align-items: center;
+    background-color: #4caf4f;
+    color: white;
+}
+.nav-link {
+    border-bottom: 3px solid transparent;
+}
+header .navbar-nav .nav-item .nav-link:hover{
+    border-color: #4caf4f;
+}
+header .navbar-nav .nav-item .nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    padding: 20px 0;
+    margin: 0 14px;
+}
+/* ---------------------End Navbar------------- */
+/* -----------------------first banner Section------------------- */
+.register{
+    margin-top: 70px;
+}
+.register .bttn{
+    padding: 14px 32px;
+}
+.banner .carousel-indicators button{
+    background-color: #4caf4f;
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+    border-color: none;
+}
+.carousel-indicators{
+    bottom: -50px;
+}
+
+/* --------------------------End--------------------------------- */
+/* --------------------------client section----------------------- */
+.clients .img-fluid{
+    height: 60px;
+    width: 90px;
+}
+/* ------------------------------End-------------------------------- */
+/* ----------------community section------------------- */
+.system .manage{
+    border-radius: 8px;
+    background:  #FFf;
+    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.20);
+    position: relative;
+    transition: all .8s; 
+    padding: 20px 50px;
+    transform: translatey(5%)
+
+}
+.system .manage:hover{
+    transform: scale(1.05);
+    border: 2px solid #4caf4f;
+}
+ .image{
+    position: absolute;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top: 0;   
+}
+.manage h3{
+    padding-top: 100px;
+}
+/* ------------------------End-------------------- */
+
+/* ------------------------- Helping section-------------------------- */
+.helping ul{
+    list-style: none;
+}
+
+/* --------------------------customer service----------------------------------------------- */
+.customer a{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+}
+/* --------------------------End ------------------------- */
+ /* --------------------Start marketing--------------------------- */
+.new-marketing .position img{
+    border-radius: 10px;
+}
+.new-marketing .new{
+    padding-top: 60px;
+}
+.position{
+    position: relative;
+}
+.new-marketing {
+    margin-bottom: 100px;
+}
+.market p , .market a{
+    font-weight: 600;
+    font-size: 18px;
+}
+.market p{
+    padding-bottom: 14px;
+}
+.market{
+    border-radius: 8px;
+    background: var(--Neutral-Silver, #F5F7FA);
+    box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.40);
+    width: 80%;
+    position: absolute;
+    padding: 16px;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+/* ------------------------Start Pallentesque------------------------ */
+.suscipit .register {
+    margin-top: 30px;
+   
+}
+/* -----------------------footer-------------------------- */
+footer{
+    background: var(--Neutral-Black, #263238);
+    padding: 40px 0;
+}
+footer span , footer p  , footer a{
+   color: #F5F7FA
+}
+h5{
+    color: #ffffff;
+}
+footer p{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+footer ul{
+    padding-top: 30px;
+    gap: 22px;
+}
+footer li{
+    margin-bottom: 10px;
+}
+input{
+    border: none;
+   color :#D9DBE1;
+    margin-top: 30px;
+    border-radius: 8px;
+    opacity: 0.2;
+    background: var(--Default-White, #FFF);
+    padding: 8px 10px ;
+}
+.email  {
+    position: relative;
+    width: 100%;
+}
+.fa-paper-plane{
+    position: absolute;
+    right: 0;
+    left: 195px;
+    bottom: 10px 
+}
+/* ---------------------End------------------------- */
+/* ----------------- Media Query--------------------- */
+
+@media(max-width: 992px){
+    .customer a{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    h2{
+        font-size: 26px;
+    }
+    header .navbar-nav .nav-item .nav-link {
+        padding: 0;
+    }
+  .xyzbtn{
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  .register {
+    margin-top: 40px;
+  }
+  .suscipit{
+    margin-top: 15px;
+  }
+  
+}
